@@ -24,7 +24,7 @@ body {
 }
 .technologies ul li {
   border: 1px solid #385564;
-  padding: 0.4rem;
+  padding: 0.7rem;
   border-radius: 5%;
   display: flex;
   align-items: center;
@@ -45,7 +45,7 @@ body {
   display: grid;
   padding: 5px;
   grid-gap: 10px;
-  grid-template-areas: "technologies info info about-me" "stack workplace workplace certification";
+  grid-template-areas: "technologies info info info about-me" "stack workplace workplace workplace certification";
 }
 
 @media (max-width: 768px) {

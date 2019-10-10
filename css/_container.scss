@@ -6,8 +6,8 @@
     padding: 5px;
     grid-gap: 10px;
     grid-template-areas:
-        'technologies info info about-me'
-        'stack workplace workplace certification';
+        'technologies info info info about-me'
+        'stack workplace workplace workplace certification';
 }
 
 @media (max-width: 768px) {
