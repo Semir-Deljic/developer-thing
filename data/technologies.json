@@ -1,0 +1,34 @@
+[{
+        "topic": "backEnd",
+        "technologies": [
+            "C#",
+            "Java",
+            "Asp Net Mvc",
+            "Asp Net Web Api",
+            "Java Spring Boot",
+            "Node & Express.Js"
+        ]
+    },
+    {
+        "topic": "databases",
+        "technologies": [
+            "SQL",
+            "MongoDb",
+            "Firestore"
+        ]
+    },
+    {
+        "topic": "frontEnd",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "Typescript",
+            "Angular",
+            "Bootstrap",
+            "NgRx",
+            "Sass"
+        ]
+    }
+]

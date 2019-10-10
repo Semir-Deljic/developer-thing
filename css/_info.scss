@@ -1,0 +1,24 @@
+@import '_variables';
+
+section.info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    color: $primary-color;
+
+    label {
+        font-weight: bolder;
+        display: block;
+        padding: $default-padding;
+
+        &::after {
+            content: ':';
+        }
+    }
+
+    .info-section {
+        border: 1px solid $primary-color;
+        margin-bottom: 0.6rem;
+        padding: $default-padding;
+    }
+}

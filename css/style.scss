@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+// Resets
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato';
+  line-height: 1.3rem;
+}
+
+@import '_variables';
+@import '_technologies';
+@import '_container';
+@import '_info';
+@import '_stack';
+@import '_certification';
+@import '_about_me';
+@import '_workplace';
+
+// General styles
+.section-title {
+  margin-bottom: 1rem;
+  display: block;
+  border-bottom: 1px solid $primary-color;
+}

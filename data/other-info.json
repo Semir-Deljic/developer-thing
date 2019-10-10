@@ -1,0 +1,19 @@
+{
+    "about-me": [
+        "Hi! I'm <strong>Semir Deljić</strong>, a Full Stack Web Developer with <strong>4 year experience</strong> in the area.",
+        "If you want to contact me please send me an email to: <strong>semir.deljic@gmail.com</strong>"
+    ],
+    "stack": [
+        "Whenever I have time I try to give something back to community by answering questions on <strong>Stack Overflow</strong>.",
+        "Most of my answers are related to <strong>Angular & Typescript</strong> issues."
+    ],
+    "workplace": [
+        "At the moment, I work as a full-time freelancer on <strong>Upwork</strong>.",
+        "I am a <strong>TOP RATED</strong> freelancer with more than 30 successfully completed jobs.",
+        "With my communication skills I've achieved contracts with clients from all over the World",
+        "After 2.5 years on Upwork my rating is still <strong>5.0</strong> (100% Job Success)"
+    ],
+    "certification": [
+        "In 2016, I became <strong>Microsoft Certified Solutions Developer</strong>."
+    ]
+}

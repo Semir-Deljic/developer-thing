@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato";
+  line-height: 1.3rem;
+}
+
+.technologies {
+  grid-area: technologies;
+  background-color: #f9f9f9 !important;
+}
+.technologies ul {
+  list-style: none;
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.technologies ul li {
+  border: 1px solid #385564;
+  padding: 0.4rem;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  height: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .technologies ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.container {
+  position: relative;
+  max-width: 1092px;
+  margin: 0 auto;
+  display: grid;
+  padding: 5px;
+  grid-gap: 10px;
+  grid-template-areas: "technologies info info about-me" "stack workplace workplace certification";
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas: "info info" "technologies technologies" "about-me about-me" "stack stack" "certification certification" "workplace workplace";
+  }
+}
+.container > * {
+  box-sizing: border-box;
+  background: #fff;
+  color: #333;
+  padding: 0.5rem 1rem;
+}
+
+section.info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  color: #385564;
+}
+section.info label {
+  font-weight: bolder;
+  display: block;
+  padding: 0.4rem;
+}
+section.info label::after {
+  content: ":";
+}
+section.info .info-section {
+  border: 1px solid #385564;
+  margin-bottom: 0.6rem;
+  padding: 0.4rem;
+}
+
+.stack {
+  grid-area: stack;
+  width: 100%;
+}
+
+.certification {
+  grid-area: certification;
+}
+
+.about-me {
+  grid-area: about-me;
+  background-color: #f9f9f9 !important;
+}
+.about-me .profile-image {
+  border: 1px solid #385564;
+  display: block;
+  margin: 10px auto;
+}
+
+.workplace {
+  grid-area: workplace;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  display: block;
+  border-bottom: 1px solid #385564;
+}
+
+/*# sourceMappingURL=style.css.map */

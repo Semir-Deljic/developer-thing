@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    max-width: 1092px;
+    margin: 0 auto;
+    display: grid;
+    padding: 5px;
+    grid-gap: 10px;
+    grid-template-areas:
+        'technologies info info about-me'
+        'stack workplace workplace certification';
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas:
+            'info info'
+            'technologies technologies'
+            'about-me about-me'
+            'stack stack'
+            'certification certification'
+            'workplace workplace';
+    }
+}
+
+.container>* {
+    box-sizing: border-box;
+    background: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+}

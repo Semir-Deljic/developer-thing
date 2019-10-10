@@ -1,0 +1,12 @@
+@import '_variables';
+
+.about-me {
+    grid-area: about-me;
+    background-color: #f9f9f9 !important;
+
+    .profile-image {
+        border: 1px solid $primary-color;
+        display: block;
+        margin: 10px auto;
+    }
+}
