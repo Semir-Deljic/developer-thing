@@ -2,7 +2,7 @@
 
 .about-me {
     grid-area: about-me;
-    background-color: #f9f9f9 !important;
+    background-color: $bg-color-1 !important;
 
     .profile-image {
         border: 1px solid $primary-color;

@@ -11,7 +11,7 @@ body {
 
 .technologies {
   grid-area: technologies;
-  background-color: #f9f9f9 !important;
+  background-color: #f7f5f1 !important;
 }
 .technologies ul {
   list-style: none;
@@ -91,7 +91,7 @@ section.info .info-section {
 
 .about-me {
   grid-area: about-me;
-  background-color: #f9f9f9 !important;
+  background-color: #e2dfe0 !important;
 }
 .about-me .profile-image {
   border: 1px solid #385564;
