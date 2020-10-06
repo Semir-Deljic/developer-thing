@@ -13,9 +13,9 @@
 @media (max-width: 768px) {
     .container {
         grid-template-areas:
+            'about-me about-me'
             'info info'
             'technologies technologies'
-            'about-me about-me'
             'stack stack'
             'certification certification'
             'workplace workplace';
