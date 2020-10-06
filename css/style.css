@@ -50,7 +50,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    grid-template-areas: "info info" "technologies technologies" "about-me about-me" "stack stack" "certification certification" "workplace workplace";
+    grid-template-areas: "about-me about-me" "info info" "technologies technologies" "stack stack" "certification certification" "workplace workplace";
   }
 }
 .container > * {
